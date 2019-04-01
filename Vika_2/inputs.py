@@ -6,7 +6,8 @@ Gagnvirk forrit: input() skipunin
 """
 
 # Lítið og krúttlegt forrit
-ar = 2019
-aldur = int(input("Skraðu inn aldur: "))
+year = 2019
+age = int(input("Skraðu inn aldur: "))
+birthYear = year-age
+print("Þú fæddist árið", birthYear)
 
-print("Þú fæddist árið ", ar-aldur)
