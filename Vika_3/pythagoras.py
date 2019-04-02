@@ -29,7 +29,7 @@ def pretty_print(langhlid1, langhlid2):
 # __main__
 # reiknum lengd langhliða á rétthyrndu þríhyrningunum okkar með hjálparfalli
 langhlid1 = pythagoras(3,4)
-langhlid2 = pythagoras(6,8)
+langhlid2 = pythagoras(10,100)
 
 # prentum niðurstöðurnar út á flottan máta með hjálparfallinu pretty_print()
 pretty_print(langhlid1, langhlid2)

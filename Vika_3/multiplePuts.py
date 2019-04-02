@@ -5,19 +5,21 @@ multiple inputs and outputs
 @author: helgi
 """
 
-
 def swap(x, y): 
-    temp = x 
+    myTemp = x 
     x = y
-    y = temp
+    y = myTemp
     return x, y
   
+def ástuSwap(x,y):
+    return y,x
+    
 # __main__
 x = 2
 y = 3
 print("í byrjun er x =", x) 
 print("og y =", y)
-swap(x, y) 
+x, y = ástuSwap(x, y) 
 print("en svo verður x =", x) 
 print("og y =", y)
 
